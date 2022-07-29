@@ -1,5 +1,5 @@
 body {
-    background-image: url('/image/backgorund\ game.jpg');
+    background-image: url('./image/backgorund\ game.jpg');
 }
 
 h1 {
@@ -29,7 +29,7 @@ h1 {
     margin-right: auto;
     max-width: 350px;
     margin-top: 50px;
-    cursor: url('/image/cursorgun.png'), auto; 
+    cursor: url('./image/cursorgun.png'), auto; 
 }
 
 .demogorgan {
@@ -39,7 +39,7 @@ h1 {
     max-width: 350px;
     margin-top: 50px;
     animation: shaking 3s ease 0s infinite normal forwards;
-    cursor: url('/image/cursorgun.png'), auto; 
+    cursor: url('./image/cursorgun.png'), auto; 
 }
 
 @keyframes shaking {
@@ -97,7 +97,7 @@ h1 {
 	animation-name: move;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
-    cursor: url('/image/cursorgun.png'), auto; 
+    cursor: url('./image/cursorgun.png'), auto; 
 }
 
 @keyframes move {
