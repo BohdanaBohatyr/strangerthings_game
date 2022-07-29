@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Game</title>
+    <link rel="stylesheet" href="style_form.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+        </style>
+  </head>
+  <body>
+    <section class="main">
+      <form action="@" class="form" id="form" name="form" onsubmit="return validate()">
+        <h1 class="form_title">Do you wanna play?</h1>
+        <div class="form_item">
+          <label for="forName" class="form_label">Name:</label>
+          <input id="formName" type="text" name="name" class="form_input" />
+        </div>
+        <div class="form_item">
+          <label for="forEmail" class="form_label">E-mail:</label>
+          <input id="formEmail" type="text" name="email" class="form_input" />
+        </div>
+        <div class="form_item">
+          <p class="item_title">Have you ever watched Strangers Things?</p>
+          <div class="options_item">
+            <input
+              id="yes"
+              type="radio"
+              value="yes"
+              name="age"
+              class="options_input"
+            />
+            <label for="yes" class="options_label">Yes</label>
+          </div>
+          <div class="options_item" id="options">
+            <input
+              id="no"
+              type="radio"
+              checked
+              value="no"
+              name="age"
+              class="options_input"
+            />
+            <label for="no" class="options_label">No</label>
+
+            <button type="submit" class="form_button" id="button">Done</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <script src="app_form.js"></script>
+  </body>
+</html>
