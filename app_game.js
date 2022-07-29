@@ -16,7 +16,7 @@ function secondLevel() {
   bat.remove();
   let demogorgan = document.getElementById("img");
   demogorgan.innerHTML =
-    '<img class="demogorgan" id="demogorgan" src="/image/demogorgan.png" alt="Demogorgan" onclick="onClick2()">';
+    '<img class="demogorgan" id="demogorgan" src="./image/demogorgan.png" alt="Demogorgan" onclick="onClick2()">';
   health = 10;
   click = 0;
 }
@@ -36,7 +36,7 @@ function thirdLevel() {
   demogorgan.remove();
   let vecna = document.getElementById("img");
   vecna.innerHTML =
-    '<img class="vecna" id="vecna" src="/image/vecna.png" alt="Vecna" onclick="onClick3()">';
+    '<img class="vecna" id="vecna" src="./image/vecna.png" alt="Vecna" onclick="onClick3()">';
   health = 15;
   click = 0;
 }
@@ -55,7 +55,7 @@ function finish() {
   hello.remove();
   let final = document.getElementById("img");
   final.innerHTML =
-    '<img class="finish" id="finish" src="/image/youwin.gif" alt="Finish">';
+    '<img class="finish" id="finish" src="./image/youwin.gif" alt="Finish">';
 
 let text = document.getElementById('text');
 let newText = document.createElement('p');
